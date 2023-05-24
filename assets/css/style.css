@@ -1,0 +1,60 @@
+.hg-conteudo{
+    background-color: rgb(202, 196, 196);
+}
+.hg-conteudo > main{
+    background-color: #ffffff;
+    flex: 1;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+}
+
+.hg-conteudo{
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+}
+
+.hg-conteudo > nav {
+    order: -1;
+}   
+
+@media (min-width: 768px){
+    .hg-conteudo{
+        flex-flow: row;
+    }
+    .hg-conteudo > nav, .hg-conteudo > aside{
+        flex: 0 0 100px;
+    }
+}
+
+@media (hover: hover){
+    .especial:hover{
+        padding-left: 50px;
+        transition: padding 2s;
+    }
+}
+
+.teste{
+    padding: 50px;
+}
+
+.estilo > h5{
+    padding: -4px 0px 10px 50px;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: white;
+    background-color: #346692;  
+}
+
+.estilo > p{
+    
+    color: white;
+    background-color: #346692;  
+}
